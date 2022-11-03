@@ -1,0 +1,155 @@
+body {
+    padding-top: 50px;
+    background-color: lightpink;
+}
+
+.starter-template {
+    padding: 40px 40px;
+    background-color: white;
+}
+.color-scissors {
+    color: plum;
+}
+
+.color-wrench {
+    color: steelblue;
+}
+
+.color-globe {
+    color: lightseagreen;
+}
+
+.icon-size {
+    font-size: 200%;
+}
+.jumbotron {
+    background-color: lightpink;
+}
+.ff_biryani {
+    font-family: 'Biryani', sans-serif;
+}
+a {
+    transition: color 0.3s;
+    color: #000000;
+}
+  
+a:hover {
+    color: #000000;
+    opacity: 0.5;
+}
+
+a:hover img {
+    opacity: 0.5;
+}
+
+a:active {
+    color : #000000;
+    opacity: 0.5;
+  }
+  
+@media screen and (min-width: 801px), print {
+    .pc-hide {
+      display: none !important;
+    }
+}
+/* navbar 全体の背景色とボーダーカラー */
+.navbar-default {
+    background-color: lightpink;
+    border-color: lightpink;
+    }
+    /* navbar テキストカラー */
+    .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    }
+    /* navbar hover,focus時のテキストカラー */
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+    background-color: transparent;
+    }
+    /* navbar active設定時のカラー */
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+    color: #000000;
+    background-color: pink;
+    }
+    /* navbar ドロップダウン(親)のカラー */
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+    color: lightpink;
+    background-color: pink;
+    }
+    /* navbar ドロップダウン(子)のボックスカラー */
+    .dropdown-menu {
+    background-color: lightpink;
+    border: 1px solid lightpink;
+    border: 1px solid lightpink(0, 0, 0, .15);
+    -webkit-box-shadow: 0 6px 12px rgba(94, 136, 129, 0.35);
+    box-shadow: 0 6px 12px rgba(94, 136, 129, 0.35);
+    }
+    /* navbar ドロップダウン(子)テキストカラー */
+    .dropdown-menu>li>a {
+    color: #ffffff;
+    }
+    /* navbar ドロップダウン(子)focus,hover時のカラー */
+    .dropdown-menu>li>a:focus,
+    .dropdown-menu>li>a:hover {
+    color: #000000;
+    background-color: pink;
+    }
+    /* navbar ドロップダウン(子)内の区切り線(class=”divider”)のカラー */
+    .dropdown-menu .divider {
+    background-color: lightpink;
+    }
+    /* navbar 画面サイズ767px以下の時のカラー */
+    @media (max-width:767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #000000;
+    background-color: transparent;
+    }
+    /* ドロップダウンactive設定時のカラー */
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+    color: #ffb163;
+    background-color: #d4ede9;
+    }
+    }
+    /* navbar ハンバーガー四角枠 */
+    .navbar-default .navbar-toggle {
+    border-color: #ffffff;
+    }
+    /* navbar ハンバーガー三本線 */
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+    }
+    /* navbar ハンバーガーボタン,タップとホバーした時の背景色 */
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+    background-color: #ffffff;
+    }
+    /* navbar ハンバーガーボタン,タップとホバーした時の四角枠 */
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+    border-color: lightpink;
+    }
+    /* navbar ハンバーガーボタン,タップとホバーした時の三本線 */
+    .navbar-default .navbar-toggle:focus > .icon-bar,
+    .navbar-default .navbar-toggle:hover > .icon-bar {
+    background-color: lightpink;
+    }
+    /* navbar Brandのカラー */
+    .navbar-default .navbar-brand {
+    color: #000000;
+    }
+    .navbar-default .navbar-brand:focus,
+    .navbar-default .navbar-brand:hover {
+    color: #000000;
+    background-color: transparent;
+    }
